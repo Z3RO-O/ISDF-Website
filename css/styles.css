@@ -854,4 +854,5 @@ section p {
 
 .card {
   padding: 16px;
+  z-index: 1;
 }
