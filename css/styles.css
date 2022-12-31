@@ -106,6 +106,7 @@ section {
 }
 
 body {
+  font-family: 'Hackers', sans-serif;
   line-height: 1;
   background: black;
   color: white;
@@ -209,7 +210,7 @@ section p {
 .header .navbar .nav-links li a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   margin: 0 1.2rem;
   position: relative;
 }
@@ -443,7 +444,7 @@ section p {
 /* ACTIVITY section */
 
 .activity {
-  background-color: #26272b;
+  background-color: #000;
   padding: 100px 0 100px;
   min-height: 80vh;
 }
@@ -491,7 +492,6 @@ section p {
 .activity-cards .card .card_title {
   text-align: center;
   border-radius: 0px 0px 40px 40px;
-  font-family: sans-serif;
   font-weight: bold;
   font-size: 30px;
   margin-top: -40px;
@@ -515,7 +515,8 @@ section p {
 /* MEMBERS section */
 
 .members {
-  background-color: rgb(72, 72, 72);
+  background-color: rgb(30, 30, 30);
+  font-weight: bold;
 }
 
 .members .coordinators h3 {
@@ -621,7 +622,7 @@ section p {
 /* footer */
 
 .site-footer {
-  background-color: #26272b;
+  background-color: rgb(50, 50, 50);
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
@@ -690,7 +691,8 @@ section p {
   margin-left: 6px;
   margin-right: 0;
   border-radius: 100%;
-  background-color: #33353d;
+  background-color: #ffffff;
+  color: #000;
 }
 
 .copyright-text {
@@ -751,8 +753,8 @@ section p {
 .social-icons a:active,
 .social-icons a:focus,
 .social-icons a:hover {
-  color: #fff;
-  background-color: #29aafe;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
 }
 
 .social-icons.size-sm a {
@@ -762,20 +764,24 @@ section p {
   font-size: 14px;
 }
 
+.social-icons a.instagram:hover {
+  color: white;
+  background-color: #000000;
+}
+
 .social-icons a.facebook:hover {
-  background-color: #3b5998;
+  color: white;
+  background-color: #000000;
 }
 
 .social-icons a.twitter:hover {
-  background-color: #00aced;
+  color: white;
+  background-color: #000000;
 }
 
 .social-icons a.linkedin:hover {
-  background-color: #007bb6;
-}
-
-.social-icons a.dribbble:hover {
-  background-color: #ea4c89;
+  color: white;
+  background-color: #000000;
 }
 
 @media (max-width: 767px) {
@@ -789,7 +795,7 @@ section p {
 /* ABOUT */
 
 .about {
-  background-color: #484848;
+  background-color: rgb(30, 30, 30);
   width: 100%;
   margin: 0;
   padding: 5px 0;
