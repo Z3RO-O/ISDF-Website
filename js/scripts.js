@@ -9,7 +9,7 @@ burger.addEventListener('click', () => {
     burger.classList.toggle('bar-change');
 })
 
-
+// Third Part : _4_cr1m3}
 // Sticky navbar
 window.addEventListener('scroll', () => {
     navbar.classList.toggle('sticky', scrollY > 0)
